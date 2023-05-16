@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T09:14:28.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="2xM_cgRQ7_QgfiNqdN6c" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T09:17:15.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="eKFBeWT9R8lV9bkcyI04" version="21.3.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="611" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,20 +33,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W1CnCfXpH14r4FqVQnyT-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="525" width="120" height="60" as="geometry" />
+        <mxCell id="W1CnCfXpH14r4FqVQnyT-7" value="注册中心&lt;br&gt;eureka" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="255" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W1CnCfXpH14r4FqVQnyT-8" value="MySQL" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="50" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W1CnCfXpH14r4FqVQnyT-9" value="Redis" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="50" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W1CnCfXpH14r4FqVQnyT-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="540" as="sourcePoint" />
-            <mxPoint x="310" y="490" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="W1CnCfXpH14r4FqVQnyT-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -89,6 +83,9 @@
             <mxPoint x="459.5" y="110" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W1CnCfXpH14r4FqVQnyT-21" value="配置中心&lt;br&gt;config" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="490" y="255" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
